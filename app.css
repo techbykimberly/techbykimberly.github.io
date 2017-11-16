@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(145, 249, 229);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+h2 {
+    font-family: Poiret One;
+    color: #304440;
+}
+
+#title {
+    font-family: Lobster Two;
+    text-align: center;
+    font-size: 4em;
+}
+
+#second-title {
+    font-family: Unica One;
+    text-align: center;
+    color: #304440;
+}
+
+p {
+    font-family: Sue Ellen Francisco;
+    font-size: 22px;
+}
+
+ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.50);
+}
+
+.page-links {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+header {
+    text-align: center;
+    background: url("images/background2.jpg");
+    background-size: cover;
+    padding: 30px 0px 0px 0px;
+    color:white;
+}
+
+#dog1, #dog2 {
+    border: 4px double gray;
+}
+
+a {
+    color: white;
+    font-family: Comfortaa;
+    text-align: center;
+}
+
+.author-link {
+    text-align: center;
+}
+
+article {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.page-img {
+    border: 4px double gray;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
