@@ -33,7 +33,7 @@ ul {
     background: rgba(0,0,0,0.50);
 }
 
-.page-links {
+li {
     display: inline;
     padding: 0px 10px 0px 10px;
 }
