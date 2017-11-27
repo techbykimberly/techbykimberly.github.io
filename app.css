@@ -77,3 +77,48 @@ article {
 #animal-link {
     text-align: center;
 }
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 0px solid #000000;
+    border-radius: 19px;
+    background: #489182;
+    background: -webkit-gradient(linear, left top, left bottom, from(#489182), to(#489182));
+    background: -moz-linear-gradient(top, #489182, #489182);
+    background: linear-gradient(to bottom, #489182, #489182);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #56ae9c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#56ae9c), to(#56ae9c));
+    background: -moz-linear-gradient(top, #56ae9c, #56ae9c);
+    background: linear-gradient(to bottom, #56ae9c, #56ae9c);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #2b574e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2b574e), to(#489182));
+    background: -moz-linear-gradient(top, #2b574e, #489182);
+    background: linear-gradient(to bottom, #2b574e, #489182);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiUlEQVQ4jcXTz0qUYRTH8c87Dc2fmhiITEFRRloopDObWgXTDdgltBs3YXUDhW1azvqdTX+gC9ArmLZtHEFtIQxTyAS1EYVUMp8W7zuDg9DGoAd+PHDgfM/vOc85UQjBZU7mUtn/ApCFKIqERqOO51hCD+/RRBmrabyMdTTFcRuiEALLy1XFmxuma0xWOD3ky2e6nTaqZu+Xjc+Rucr3Lt92OOg/FMftbOqkaXye25XkUaUSC/fIhrpckam7nOG3pEAW2/0maoMe1E3MJckD5XBrjNJ18hIV0nuiAtXzTew52R8FZHAtn6iQAjMSJz8PpX0aApr6W5wejQLyOYo5ojTxDMdH9DbhzbCJ6S+8MDazanaeqUmupJUiFEucYG+P7g4/ei/F8asRAIRGYwnvLD4oq8zx6zhxUsiz1WH70z4ei+P1wRyMAFLIAtZUqjPu1BInuxvsdjp4FLVaX8+P/wVACrmBj6YXqyL0Nt/iadRqHcDI/vxtmcKTlQ9h5dnrC/EQhor++zb+AXzNjIrY4iEhAAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
