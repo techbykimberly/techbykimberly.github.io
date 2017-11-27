@@ -89,7 +89,7 @@ article {
     background: -webkit-gradient(linear, left top, left bottom, from(#489182), to(#489182));
     background: -moz-linear-gradient(top, #489182, #489182);
     background: linear-gradient(to bottom, #489182, #489182);
-    font: normal normal 6px Comfortaa;
+    font: normal normal 10px Comfortaa;
     color: #ffffff;
     text-decoration: none;
 }
