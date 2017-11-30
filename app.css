@@ -126,6 +126,5 @@ table {
     text-align: center;
     font-family: Comfortaa;
     display: block;
-    margin-left: auto; style;
-    margin-right: auto; style;
+    margin: auto;
 }
