@@ -127,3 +127,9 @@ table {
     font-family: Comfortaa;
     margin: auto;
 }
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
